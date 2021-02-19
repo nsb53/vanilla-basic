@@ -30,7 +30,7 @@
          fontWeight: 'bold'
       };
 
-      const res = await fetch('https:<YOUR_TOKEN_SERVER/API>', { method: 'POST' });
+      const res = await fetch('POST https://directline.botframework.com/v3/directline/tokens/generate Authorization: Bearer aLAqr88029o.H70dgUlBjARb9NRG8tMOjrq59NYT-4-PoluhT_T0ZfQ', { method: 'POST' });
       const { token } = await res.json();
 
       window.WebChat.renderWebChat(
